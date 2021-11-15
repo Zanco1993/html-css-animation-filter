@@ -1,0 +1,64 @@
+/* ---------------------1 es---------------------- */
+
+.ex-1-square{
+    transition: 4s;
+}
+/* ritorno di 4 secondi */
+
+.ex-1-square:hover{
+ background-color: red;
+ transition: 2s;
+}
+/* andata di 2 secondi */
+
+/* ---------------------2 es---------------------- */
+.ex-2-square{
+    transition: 4s;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
+/* ---------------------3 es---------------------- */
+
+.ex-3-square{
+    transition: 2s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+/* ---------------------4 es---------------------- */
+
+.ex-4-square{
+    transition: 2s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+/* ---------------------5 es---------------------- */
+
+.ex-5-square{
+    transition: 2s;
+}
+
+.ex-5-square:hover{
+    width: 120px;
+    height: 120px;
+}
+.ex-5-square:active{
+    width: 30px;
+    height: 30px;
+}
+
+/* .ex-5-square:hover {
+    transform: scale(2);
+}
+.ex-5-square:active {
+    transform: scale(.5);
+} */
+/* ---------------------6 es---------------------- */
+
+
