@@ -87,7 +87,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    animation: opacity-to-end 5s linear;
+    animation: opacity-to-end 5s ease-in;
     animation-iteration-count: 2;
 }
 
